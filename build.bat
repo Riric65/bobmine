@@ -44,6 +44,10 @@ if errorlevel 1 (
     echo.
     echo ERREUR pendant la compilation - voir le message ci-dessus.
     echo.
+    echo Si lerreur parle de "linker", il manque les C++ Build Tools :
+    echo     https://aka.ms/vs/17/release/vs_BuildTools.exe
+    echo ^(coche "Desktop development with C++", puis relance^)
+    echo.
     pause
     exit /b 1
 )
